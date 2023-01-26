@@ -70,7 +70,7 @@ span:nth-child(3) {
     }
 
 @keyframes glowing {
-0% {box-shadow: 5px 10px white;}
-50% {box-shadow: 10px 20px lightseagreen;}
-100% {box-shadow: 5px 10px #e6ffff;}
+0% {box-shadow: 5px 10px 20px white;}
+50% {box-shadow: 10px 20px 35px  lightseagreen;}
+100% {box-shadow: 5px 10px 20px #e6ffff;}
   }
