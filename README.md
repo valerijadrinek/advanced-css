@@ -8,3 +8,6 @@ This is what is this respository all about...<br>
 <br> <br>
 #### ...and this cup of coffee is made mostly by using box-shadow property...<br>
 ![kava ](https://user-images.githubusercontent.com/85646659/215087503-6e214ae5-759f-42d3-a397-bac5107104bc.png)
+<br><br>
+#### ...this **GIT LOGO*** too... <br>
+![git logo](https://user-images.githubusercontent.com/85646659/215175501-b086a5cd-dc38-4e67-ab19-650a9b189ef7.png)
