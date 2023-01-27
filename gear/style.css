@@ -1,0 +1,49 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.gear {
+content: "";
+ width: 120px;
+ height: 120px;
+ background-color: aquamarine;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ z-index: 3;
+ position: relative;
+}
+
+.bar {
+ width: 170px;
+ height: 50px;
+ border-radius: 7px;
+ background-color: aquamarine;
+ position: absolute;
+ z-index: 1;
+}
+
+.gear-inner {
+ width: 55px;
+ height: 55px;
+ background-color: white;
+ border-radius: 50%;
+ z-index: 5;
+ position: absolute;
+}
+
+.bar:nth-child(2) {
+    transform: rotate(60deg);
+}
+
+.bar:nth-child(3) {
+    transform: rotate(120deg);
+}
