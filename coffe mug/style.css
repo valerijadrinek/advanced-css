@@ -1,0 +1,42 @@
+:root {
+    --brown: #3c2415;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.coffe-mug {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #55331d;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4b2e1c, 
+     0 0 0 25px var(--brown),
+     0 0 0 42px #f39407,
+     0 0 0 65px #fEaa3a,
+     0 120px 3px -25px var(--brown),
+     100px 70px 3px -25px var(--brown),
+     80px 140px 5px -10px var(--brown),
+     0 210px 1.5px -55px var(--brown),
+     20px 250px 1px -65px var(--brown);
+    }
+
+.coffe-mug:before {
+    content: "";
+    position: absolute;
+    height: 75px ;
+    width: 60px;
+    background-color: #fEaa3a;
+    top: -85px;
+    right: -75px;
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
