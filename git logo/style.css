@@ -1,0 +1,81 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left top, #ccffff, #767690);
+    margin: 0;
+    padding: 0;
+}
+
+.git {
+    width: 150px;
+    height: 150px;
+    background-color: #F05033;
+    position: relative;
+    border-radius: 15px;
+    transform: rotate(45deg);
+}
+
+.line1 {
+    width: 110px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+}
+
+.line1:before {
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 30px;
+    top: -8px;
+}
+
+.line1:before {
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 30px;
+    top: -8px;
+}
+
+.line1:after {
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 90px;
+    top: -8px;
+}
+
+.line2 {
+    width: 90px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    transform: rotate(45deg);
+}
+
+.line2:before {
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 70px;
+    top: -8px;
+}
